@@ -1,4 +1,4 @@
-package com.java;
+/*package com.java;
 
 public class EjercicioVerificadorNumeros {
     public static void main(String[] args) {
@@ -22,3 +22,4 @@ public class EjercicioVerificadorNumeros {
         System.out.println("" + x + "," + y + "," + z + resultado);
     }
 }
+*/

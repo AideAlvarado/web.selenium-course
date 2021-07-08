@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Launch... https://opensource-demo.orangehrmlive.com/ application]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser OrangeHRM web page]]>
+    </line>
+    <line>
+      <![CDATA[Validate that you have logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Click Admin - Go to the admin page]]>
+    </line>
+    <line>
+      <![CDATA[Click Add]]>
+    </line>
+    <line>
+      <![CDATA[Enter valid Employee Name]]>
+    </line>
+    <line>
+      <![CDATA[Search username in field 'Username']]>
+    </line>
+    <line>
+      <![CDATA[Verify username exist in table]]>
+    </line>
+    <line>
+      <![CDATA[Verify username is Disabled Status in table]]>
+    </line>
+    <line>
+      <![CDATA[Logout Orange web page...]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser...]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-06-10T15:33:18Z" name="Default suite" finished-at="2021-06-10T15:33:20Z" duration-ms="2647">
+  <suite started-at="2021-07-08T17:14:03Z" name="Default suite" finished-at="2021-07-08T17:14:17Z" duration-ms="13596">
     <groups>
     </groups>
-    <test started-at="2021-06-10T15:33:18Z" name="Default test" finished-at="2021-06-10T15:33:20Z" duration-ms="2647">
-      <class name="com.google.GoogleTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.google.GoogleTest@7674b62c]" started-at="2021-06-10T15:33:18Z" name="beforeTest" finished-at="2021-06-10T15:33:18Z" duration-ms="17" status="PASS">
+    <test started-at="2021-07-08T17:14:03Z" name="Default test" finished-at="2021-07-08T17:14:17Z" duration-ms="13596">
+      <class name="com.opensource.admin.qa.TC005_Admin_CreateUserDisabled_POM">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.opensource.admin.qa.TC005_Admin_CreateUserDisabled_POM@5e403b4a]" started-at="2021-07-08T17:14:03Z" name="beforeTest" finished-at="2021-07-08T17:14:05Z" duration-ms="1779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:com.google.GoogleTest@7674b62c]" started-at="2021-06-10T15:33:18Z" name="f" finished-at="2021-06-10T15:33:20Z" duration-ms="2597" status="PASS">
+        <test-method signature="TC005_Admin_CreateUserDisabled_POM_Script()[pri:0, instance:com.opensource.admin.qa.TC005_Admin_CreateUserDisabled_POM@5e403b4a]" started-at="2021-07-08T17:14:05Z" name="TC005_Admin_CreateUserDisabled_POM_Script" finished-at="2021-07-08T17:14:16Z" duration-ms="11635" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Launch... https://opensource-demo.orangehrmlive.com/ application]]>
+            </line>
+            <line>
+              <![CDATA[Open Browser OrangeHRM web page]]>
+            </line>
+            <line>
+              <![CDATA[Validate that you have logged in successfully]]>
+            </line>
+            <line>
+              <![CDATA[Click Admin - Go to the admin page]]>
+            </line>
+            <line>
+              <![CDATA[Click Add]]>
+            </line>
+            <line>
+              <![CDATA[Enter valid Employee Name]]>
+            </line>
+            <line>
+              <![CDATA[Search username in field 'Username']]>
+            </line>
+            <line>
+              <![CDATA[Verify username exist in table]]>
+            </line>
+            <line>
+              <![CDATA[Verify username is Disabled Status in table]]>
+            </line>
+            <line>
+              <![CDATA[Logout Orange web page...]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.google.GoogleTest@7674b62c]" started-at="2021-06-10T15:33:20Z" name="afterTest" finished-at="2021-06-10T15:33:20Z" duration-ms="0" status="PASS">
+        </test-method> <!-- TC005_Admin_CreateUserDisabled_POM_Script -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.opensource.admin.qa.TC005_Admin_CreateUserDisabled_POM@5e403b4a]" started-at="2021-07-08T17:14:16Z" name="afterTest" finished-at="2021-07-08T17:14:17Z" duration-ms="153" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Closing Browser...]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.google.GoogleTest -->
+      </class> <!-- com.opensource.admin.qa.TC005_Admin_CreateUserDisabled_POM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

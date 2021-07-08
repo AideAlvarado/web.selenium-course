@@ -1,4 +1,4 @@
-package com.java;
+/*package com.java;
 
 public class EjercicioVerificadorSuma {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class EjercicioVerificadorSuma {
          * 
          * sum = 2; valorSuma = suma(x, y, sum); System.out.println("La suma de: " + x +
          * "+" + y + " es " + sum + " " + valorSuma);
-         */
+        
 
         hasEqualSum(1, 1, 1);
         hasEqualSum(1, 1, 2);
@@ -30,3 +30,4 @@ public class EjercicioVerificadorSuma {
         }
     }
 }
+*/
